@@ -1,0 +1,23 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#main {
+    display: grid;
+    grid-template-rows: 10vh 164vh 10vh;
+    grid-template-areas: "header header" "nav nav" "footer footer";
+    
+}
+
+.mainHeader { grid-area:header; background-image:url("img/haederbground.jpg")}
+.mainNav { grid-area:nav; background-image: url("img/catinhusss.jpg") }
+.mainFooter { grid-area:footer; background:orange; }
+
+#h1title{
+    height: 40px;
+    color: #ffffff;
+    font-family: 'Dancing Script', cursive;
+    text-align: center
+  
+}
